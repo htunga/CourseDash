@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.header{
+    height: 30%;
+    width: 90%;
+    margin-left: 10%;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.473);
+}
+.icon1{
+    height: 70px;
+    width:100%;
+    margin-left: 5%;
+}

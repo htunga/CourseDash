@@ -1,0 +1,19 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color:rgb(249, 249, 250);
+}
+.Left-Side{
+  width: var(--left-side-width);
+  vertical-align: top;
+  height: 100vh;
+  border-right: solid 1px rgba(128, 128, 128, 0.473);
+}
+.Right-Side{
+  width: calc(100% - var(--left-side-width));
+  height: 100vh;
+}
+.Left-Side, .Right-Side{
+  display: inline-block;
+}
